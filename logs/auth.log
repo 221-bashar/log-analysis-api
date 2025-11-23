@@ -1,3 +1,5 @@
-2025-11-22 10:05:01 192.168.0.1 Failed login attempt
-2025-11-22 10:06:33 192.168.0.2 User admin logged in
-2025-11-22 10:08:12 192.168.0.3 Suspicious file accessed
+2025-11-23 12:01:22 INFO User login success 192.168.0.1
+2025-11-23 12:05:33 WARN Failed login attempt 192.168.0.2
+2025-11-23 12:10:12 INFO File accessed: secret.docx 192.168.0.1
+2025-11-23 12:15:45 ERROR Path traversal attempt /etc/passwd 1.2.3.4
+2025-11-23 12:20:00 DEBUG Heartbeat received from
